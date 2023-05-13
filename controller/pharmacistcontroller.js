@@ -1,4 +1,4 @@
-const PharmacistInformation = require("../models/cpiSchema");
+const PharmacistInformation = require("../models/pharmacistSchema");
 
 const pharmacist_post = async (req, res) => {
   // لازم يبعتلي الريكزيست بودي فيه البيانات
@@ -49,9 +49,11 @@ const pharmacist_login_post = async (req, res) => {
 const pharmacist_signin_post = (req, res) => {
   // لازم يبعتلي الريكزيست بودي فيه البيانات
   //   ولا هيبعتلي ملف جيسون
-  const PharmacistInformation = new PharmacistInformation(req.body);
+  const datauser = req.body;
+  const PharmacistInformation = new PharmacistInformation({ datauser });
   PharmacistInformation.save()
     .then((result) => {
+      res.json(result);
       // لازم يقولي الينك الي عايز يروحله
     })
     .catch((err) => {

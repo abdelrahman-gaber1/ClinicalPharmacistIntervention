@@ -1,11 +1,11 @@
 const express = require("express");
 const app = express();
 const helmet = require("helmet");
+app.use(express.json());
 // ******************************************************************************************
 //مش فاهم
-app.use(express.json());
-const bodyParser = require("body-parser");
-app.use(bodyParser.json());
+// const bodyParser = require("body-parser");
+// app.use(bodyParser.json());
 
 // ******************************************************************************************
 
@@ -68,15 +68,13 @@ app.use("/pharmacist", pharmacistRoutes);
 
 // ******************************************************************************************
 
-const AllDrug = require("./models/cpiSchema");
+const AllDrug = require("./models/drugSchema");
 
 // **********************************كل الادويه الموجوده في الداتا بيز*************************
-
 app.get("/alldrugs", (req, res) => {
-  AllDrug.find()
+  AllDrug.find({})
     .then((result) => {
       res.json({ alldrugs: result });
-      //   res.send({ alldrug: result });
     })
     .catch((err) => {
       console.log(err);

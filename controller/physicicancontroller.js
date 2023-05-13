@@ -1,8 +1,8 @@
-app.use(bodyParser.json());
-const PhysicianInformation = require("../models/cpiSchema");
+// app.use(bodyParser.json());
+const PhysicianInformation = require("../models/physicicanSchema");
 
 const physician_get = (req, res) => {
-  PhysicianInformation.find()
+  PhysicianInformation.find({})
     //عملت سيند للداتا مش عارف ده صح ولا لا
     .then((result) => {
       res.send({ PhysicInformation: result });
@@ -17,9 +17,11 @@ const pharmacist_signin_post = (req, res) => {
   // لازم يبعتلي الريكزيست بودي فيه البيانات
   //   ولا هيبعتلي ملف جيسون
   const datauser = req.body;
-  const PhysicianInformation = new PhysicianInformation(datauser);
+  const PhysicianInformation = new PhysicianInformation({ datauser });
   PhysicianInformation.save()
-    .then((result) => {})
+    .then((result) => {
+      res.json(result);
+    })
     .catch((err) => {
       console.log(err);
     });

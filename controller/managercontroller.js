@@ -1,4 +1,4 @@
-const ManagerInformation = require("../models/cpiSchema");
+const ManagerInformation = require("../models/managerSchema");
 
 const manager_post = async (req, res) => {
   // لازم يبعتلي الريكزيست بودي فيه البيانات
@@ -47,9 +47,11 @@ const manager_login_post = async (req, res) => {
 const manager_signin_post = (req, res) => {
   // لازم يبعتلي الريكزيست بودي فيه البيانات
   //   ولا هيبعتلي ملف جيسون
-  const ManagerInformation = new ManagerInformation(req.body);
+  const datauser = req.body;
+  const ManagerInformation = new ManagerInformation({ datauser });
   ManagerInformation.save()
     .then((result) => {
+      res.json(result);
       // لازم يقولي الينك الي عايز يروحله
     })
     .catch((err) => {
