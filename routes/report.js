@@ -1,21 +1,25 @@
 const express = require("express");
-const router = express.Router();
 
-const reportcontroller = require("../controller/reportcontroller");
+const router = express.Router({ mergeParams: true });
 
-// ***************************اضافه ريبورت جديد للداتا بيز********************************
-// لازم يبعتلي بوست ريكويست
-// فيه لينك معين
-router.post("/add", reportcontroller.report_post);
+const {
+  createReportvalidator,
+  getReportValidator,
+} = require("../utils/validator/reportValidator");
 
-// **********************************التقارير الخصاصه بكل صيدلي ***************************
-router.get("/:id", reportcontroller.report_get);
-// محتاج يبعتلي جيت ريكويست
+const {
+  allReports,
+  getReport,
+  createReport,
+  createFiterObject,
+  setPharmacitIdtobody,
+} = require("../controller/reportcontroller");
 
-// ******************************كل التقارير الموجوده قي الداتابيز ***********************
+router
+  .route("/")
+  .get(createFiterObject, allReports)
+  .post(setPharmacitIdtobody, createReportvalidator, createReport);
 
-router.get("/all", reportcontroller.report_all_get);
+router.route("/:id").get(getReportValidator, getReport);
 
-// لازم يبعتلي جيت ريكويست
-// ***************************************************************************************
 module.exports = router;

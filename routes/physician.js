@@ -1,26 +1,36 @@
 const express = require("express");
+
 const router = express.Router();
 
-const physiciancontroller = require("../controller/physicicancontroller");
+const {
+  createPhysicianvalidator,
+  ubdatePhysicianvalidator,
+  getPhysicianvalidator,
+  changePhysicianPasswordValidator,
+} = require("../utils/validator/physicianValidator");
 
-// ****************************عمل اكونت جديد للدكتور وتخزين البيانات************************
-// لازم يبعتلي بوست ريكويست
-// فيه لينك معين
-router.post("/signin", physiciancontroller.pharmacist_signin_post);
+const {
+  getPhysician,
+  createPhysician,
+  updatePhysician,
+  getSpicificPhisician,
+  changePassword,
+} = require("../controller/physicicancontroller");
 
-// ************************************الحصول علي بيانات الدكاتره ***************************
-// لازم يبعتلي جيت ريكويست
+router.put(
+  "/changepassword/:id",
+  changePhysicianPasswordValidator,
+  changePassword
+);
 
-router.get("/information", physiciancontroller.physician_get);
+router
+  .route("/")
+  .get(getPhysician)
+  .post(createPhysicianvalidator, createPhysician);
 
-// **********************************تاكيد الدخول للدكتور  *******************************
-// لازم يبعتلي بوست ريكويست
-// فيه لينك معين
-router.post("/log-in", physiciancontroller.pharmacist_login_post);
-
-// *********************************************تعديل بروفايل الدكتور*********************************************
-// لازم يبعتلي بوست ريكويست
-// فيه لينك معين
-router.post("/:id", physiciancontroller.physician_post);
+router
+  .route("/:id")
+  .put(ubdatePhysicianvalidator, updatePhysician)
+  .get(getPhysicianvalidator, getSpicificPhisician);
 
 module.exports = router;

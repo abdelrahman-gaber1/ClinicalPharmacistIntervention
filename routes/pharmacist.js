@@ -1,21 +1,40 @@
 const express = require("express");
+
 const router = express.Router();
 
-const pharmacistcontroller = require("../controller/pharmacistcontroller");
+const {
+  createPharmacistvalidator,
+  ubdatePharmacistvalidator,
+  getPharmacistvalidator,
+  changePharmacistPasswordValidator,
+} = require("../utils/validator/pharmacistValidator");
 
-// ************************عمل اكونت جديد للصيدلي وتخزين البيانات **************************
-// لازم يبعتلي بوست ريكويست
-// فيه لينك معين
-router.post("/signin", pharmacistcontroller.pharmacist_signin_post);
+const {
+  updatePharmacist,
+  createPharmacist,
+  getPharmacist,
+  getSpicificPhamacist,
+  changePassword,
+} = require("../controller/pharmacistcontroller");
 
-// **********************************تاكيد الدخول للصيدلي   *******************************
-// لازم يبعتلي بوست ريكويست
-// فيه لينك معين
-router.post("/login", pharmacistcontroller.pharmacist_login_post);
+const ReportRoutes = require("./report");
 
-// ***************************************تعديل بروفايل الصيدلي *************************************************
-// لازم يبعتلي بوست ريكويست
-// فيه لينك معين
-router.post("/:id", pharmacistcontroller.pharmacist_post);
+router.use("/:pharmacistId/pharmacistReport", ReportRoutes);
+
+router.put(
+  "/changepassword/:id",
+  changePharmacistPasswordValidator,
+  changePassword
+);
+
+router
+  .route("/")
+  .get(getPharmacist)
+  .post(createPharmacistvalidator, createPharmacist);
+
+router
+  .route("/:id")
+  .put(ubdatePharmacistvalidator, updatePharmacist)
+  .get(getPharmacistvalidator, getSpicificPhamacist);
 
 module.exports = router;

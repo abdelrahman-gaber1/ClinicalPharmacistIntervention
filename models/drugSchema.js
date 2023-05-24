@@ -1,9 +1,15 @@
 const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
 
-const allDrug = new Schema({
-  drugName: String,
-});
+const allDrug = new mongoose.Schema(
+  {
+    drugName: {
+      type: String,
+      trim: true,
+      unique: [true, "Name must be unique"],
+    },
+  },
+  { timestamps: true }
+);
 
 const AllDrug = mongoose.model("AllDrug", allDrug);
 module.exports = AllDrug;

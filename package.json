@@ -1,24 +1,47 @@
 {
   "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "color": "^4.2.3",
+    "colors": "^1.4.0",
     "connect-livereload": "^0.6.1",
+    "dotenv": "^16.0.3",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^7.0.1",
     "helmet": "^6.1.5",
+    "jsonwebtoken": "^9.0.0",
     "livereload": "^0.9.3",
-    "mongoose": "^7.1.0"
+    "mongoose": "^7.1.0",
+    "morgan": "^1.10.0",
+    "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
   },
   "scripts": {
     "start": "node app.js",
+    "start:div": "nodemon server.js",
     "watch": "nodemon --ext js,ejs --ignore public"
   },
   "name": "clinicalpharmacistintervention",
   "version": "1.0.0",
   "main": "app.js",
-  "devDependencies": {},
   "author": "Abdo Gaber",
   "license": "ISC",
-  "description": "",
   "engines": {
     "node": "18.16.0"
-    }
+  },
+  "keywords": [],
+  "description": ""
 }

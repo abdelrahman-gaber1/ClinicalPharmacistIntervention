@@ -1,37 +1,81 @@
 const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
 
-const reportSchema = new Schema({
-  pharmacistId: Number,
-  pharmacistName: String,
-  date: {
-    type: Date,
-    default: Date.now,
-  },
-  consaltantName: String,
-  departmentName: String,
-  residentName: String,
-  residentAge: Number,
-  residentGender: Boolean,
-  bedNumber: Number,
-  medicalRecordNumber: Number,
-  problemType: String,
-  problemDescription: String,
-  drugTherapyProblem: Boolean,
-  errorCategory: String,
-  errorDescripion: String,
-  typeofError: String,
-  medicalError: Boolean,
-  referenceError: String,
-  intervention: String,
-  drugName: [
-    {
-      name: String,
-      physicianDose: Number,
-      pharmacistDose: Number,
+const reportSchema = new mongoose.Schema(
+  {
+    // محتاجه تتعدل من عندهم
+    pharmacistId: {
+      type: Number,
+      trim: true,
+      required: [true, "pharmacistId must be Unique"],
     },
-  ],
-  physicianAcceptance: String,
+    pharmacistName: {
+      type: String,
+      trim: true,
+      required: [true, "pharmacistName is Required"],
+    },
+    consultantName: {
+      type: String,
+      trim: true,
+      required: [true, "pharmacistName is Required"],
+    },
+    departmentName: String,
+    residentName: {
+      type: String,
+      trim: true,
+      required: [true, "pharmacistName is Required"],
+    },
+    residentAge: Number,
+    residentGender: {
+      type: String,
+      enum: ["Male", "Female"],
+      default: "Male",
+    },
+    bedNumber: Number,
+    medicalRecordNumber: {
+      type: Number,
+    },
+    problemType: String,
+    problemDescription: String,
+    drugTherapyProblem: Boolean,
+    errorCategory: String,
+    errorDescription: String,
+    typeofError: String,
+    medicalError: Boolean,
+    referenceError: String,
+    intervention: String,
+    drugName: [
+      {
+        name: String,
+        physicianDose: Number,
+        pharmacistDose: Number,
+      },
+    ],
+    physicianAcceptance: {
+      type: String,
+      enum: ["Pending", "Acceptance", "Rejected"],
+      default: "Pending",
+    },
+    Pharmacist: {
+      type: mongoose.Schema.ObjectId,
+      ref: "PharmacistInformation",
+      required: [true, "Report must be belong to Pharmacist"],
+    },
+    Physician: {
+      type: mongoose.Schema.ObjectId,
+      ref: "PhysicianInformation",
+      required: [true, "Report must be belong to Physician"],
+    },
+  },
+  { timestamps: true }
+);
+
+// Mongoose query middleware
+reportSchema.pre(/^find/, function (next) {
+  this.populate({
+    path: "Pharmacist",
+    select: "name-_id",
+  });
+  next();
 });
 
 const ReportSchema = mongoose.model("ReportSchema", reportSchema);
