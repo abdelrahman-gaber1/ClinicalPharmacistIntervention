@@ -1,68 +1,23 @@
 const PharmacistInformation = require("../models/pharmacistSchema");
 
-const pharmacist_post = async (req, res) => {
-  // لازم يبعتلي الريكزيست بودي فيه البيانات
-  //   ولا هيبعتلي ملف جيسون
-  const { userName, email, phoneNumber, newPassword, confirmPassword } =
-    req.body;
-  const id = req.params.id;
+const Factory = require("./handelerFactory");
 
-  try {
-    const pharmInformation = await PharmacistInformation.findOneAndUpdate(
-      { id: id },
-      {
-        userName: userName,
-        email: email,
-        phoneNumber: phoneNumber,
-        password: newPassword,
-        confirmPassword: confirmPassword,
-      },
-      { new: true }
-    );
-    if (!pharmInformation) {
-      return res.status(404).send("User not found");
-    }
-    // res.render("user", { user: user }); // render the updated user
-  } catch (err) {
-    res.status(400).send(err.message);
-  }
-};
+const getPharmacist = Factory.getAll(
+  PharmacistInformation,
+  "PharmacistInformation"
+);
+const updatePharmacist = Factory.updateOne(PharmacistInformation);
 
-const pharmacist_login_post = async (req, res) => {
-  try {
-    const check = await PharmacistInformation.findOne({
-      email: req.body.email,
-    });
-    // لازم يبعتلي الريكزيست بودي فيه البيانات
-    //   ولا هيبعتلي ملف جيسون
-    if (check.password === req.body.password) {
-      // لازم يبتعلي الصفحه الي هيروحها
-      res.render("");
-    } else {
-      res.send("Wrong Password");
-    }
-  } catch (err) {
-    res.send("Wrong UserName Or Password");
-  }
-};
+const createPharmacist = Factory.createOne(PharmacistInformation);
 
-const pharmacist_signin_post = (req, res) => {
-  // لازم يبعتلي الريكزيست بودي فيه البيانات
-  //   ولا هيبعتلي ملف جيسون
-  const datauser = req.body;
-  const PharmacistInformation = new PharmacistInformation({ datauser });
-  PharmacistInformation.save()
-    .then((result) => {
-      res.json(result);
-      // لازم يقولي الينك الي عايز يروحله
-    })
-    .catch((err) => {
-      console.log(err);
-    });
-};
+const getSpicificPhamacist = Factory.getOne(PharmacistInformation);
+
+const changePassword = Factory.changePassword(PharmacistInformation);
 
 module.exports = {
-  pharmacist_post,
-  pharmacist_login_post,
-  pharmacist_signin_post,
+  updatePharmacist,
+  createPharmacist,
+  getPharmacist,
+  getSpicificPhamacist,
+  changePassword,
 };
