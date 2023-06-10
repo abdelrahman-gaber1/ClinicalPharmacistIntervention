@@ -34,3 +34,5 @@ npm run start:div
 * Node.js : v18.16.0
 * Express.js : "^4.18.2"
 * Mongodb 6.0
+* Git 
+* GitHup
