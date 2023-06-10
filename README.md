@@ -1,4 +1,4 @@
-# ClinicalPharmacistIntervention
+# Clinical Pharmacist Intervention
 
 Clinical pharmacists work directly with physicians, other health professionals, and patients to ensure that the medications prescribed for patients 
 contribute to the best possible health outcomes. Clinical pharmacists can adjust the treatment plan of the diagnosed doctor after the doctor approves
