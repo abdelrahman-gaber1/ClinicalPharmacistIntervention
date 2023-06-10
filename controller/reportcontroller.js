@@ -4,7 +4,7 @@ const Factory = require("./handelerFactory");
 
 // Nested Route
 const setPharmacitIdtobody = (req, res, next) => {
-  if (!req.body.Pharmacist) req.body.pharmacist = req.params.pharmacistId;
+  if (!req.body.Pharmacist) req.body.Pharmacist = req.params.pharmacistId;
   next();
 };
 
