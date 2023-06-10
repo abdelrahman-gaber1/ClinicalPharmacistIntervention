@@ -1,0 +1,1544 @@
+[
+    {
+      "drugName": "Acetazolamide"
+    },
+    {
+      "drugName": "Acyclovir"
+    },
+    {
+      "drugName": "Adamel"
+    },
+    {
+      "drugName": "Adenosine"
+    },
+    {
+      "drugName": "Albendazole"
+    },
+    {
+      "drugName": "Albumin"
+    },
+    {
+      "drugName": "Alfacalcidol"
+    },
+    {
+      "drugName": "Allopurinol"
+    },
+    {
+      "drugName": "Alogliptin"
+    },
+    {
+      "drugName": "Alpha amylase"
+    },
+    {
+      "drugName": "Alprazolam"
+    },
+    {
+      "drugName": "Alprostadil"
+    },
+    {
+      "drugName": "Alteplase"
+    },
+    {
+      "drugName": "Aluminum hydroxide"
+    },
+    {
+      "drugName": "Amantadine"
+    },
+    {
+      "drugName": "Amboroxol+Guaifenesin"
+    },
+    {
+      "drugName": "Ambroxol"
+    },
+    {
+      "drugName": "Ambroxol+Guaifenesin+Theophylline"
+    },
+    {
+      "drugName": "Amikacin"
+    },
+    {
+      "drugName": "Amiloride+Hydrochlorothiazide"
+    },
+    {
+      "drugName": "Amino acids"
+    },
+    {
+      "drugName": "Aminophylline"
+    },
+    {
+      "drugName": "Amiodarone"
+    },
+    {
+      "drugName": "Amitryptyline"
+    },
+    {
+      "drugName": "Amlodipine"
+    },
+    {
+      "drugName": "Amlodipine+Perindopril"
+    },
+    {
+      "drugName": "Amlodipine+Valsartan"
+    },
+    {
+      "drugName": "Ammonium chloride+Diphenhydramine"
+    },
+    {
+      "drugName": "Ammonium Chloride+Salbutamol"
+    },
+    {
+      "drugName": "Amoxicillin"
+    },
+    {
+      "drugName": "Amoxicillin+Clavulanate"
+    },
+    {
+      "drugName": "Amoxicillin+Flucloxacillin"
+    },
+    {
+      "drugName": "Amphotericin B"
+    },
+    {
+      "drugName": "Ampicilin+Sulbactam"
+    },
+    {
+      "drugName": "Ampicillin"
+    },
+    {
+      "drugName": "Apixaban"
+    },
+    {
+      "drugName": "Artemether+Lumefantrine"
+    },
+    {
+      "drugName": "Aspirin"
+    },
+    {
+      "drugName": "Atenolol"
+    },
+    {
+      "drugName": "Atorvastatin"
+    },
+    {
+      "drugName": "Atorvastatin+Ezetimibe"
+    },
+    {
+      "drugName": "Atracurium"
+    },
+    {
+      "drugName": "Atropine"
+    },
+    {
+      "drugName": "Atropine Sulphate+Colchicine+Piperazine"
+    },
+    {
+      "drugName": "Azathioprine"
+    },
+    {
+      "drugName": "Azithromycin"
+    },
+    {
+      "drugName": "Bacitracin+Neomycin"
+    },
+    {
+      "drugName": "Baclofen"
+    },
+    {
+      "drugName": "Bebetone syrup"
+    },
+    {
+      "drugName": "Beclomethasone"
+    },
+    {
+      "drugName": "Beclomethasone+Salbutamol"
+    },
+    {
+      "drugName": "Belladonne+Phenobarbitone"
+    },
+    {
+      "drugName": "Benazepril"
+    },
+    {
+      "drugName": "Benzathine Penicillin"
+    },
+    {
+      "drugName": "Betahistidine"
+    },
+    {
+      "drugName": "Betamethasone"
+    },
+    {
+      "drugName": "Betaxolol"
+    },
+    {
+      "drugName": "Bilichol"
+    },
+    {
+      "drugName": "Bional"
+    },
+    {
+      "drugName": "Bisacodyl"
+    },
+    {
+      "drugName": "Bisoprolol"
+    },
+    {
+      "drugName": "Blood"
+    },
+    {
+      "drugName": "Blood Products"
+    },
+    {
+      "drugName": "Bosentan"
+    },
+    {
+      "drugName": "Bromazepam"
+    },
+    {
+      "drugName": "Bromocriptine"
+    },
+    {
+      "drugName": "Bromohexene"
+    },
+    {
+      "drugName": "Budesonide"
+    },
+    {
+      "drugName": "Budesonide+Formoterol"
+    },
+    {
+      "drugName": "Bumetanide"
+    },
+    {
+      "drugName": "Caffeine citrate"
+    },
+    {
+      "drugName": "Calcium acetate"
+    },
+    {
+      "drugName": "Calcium carbonate"
+    },
+    {
+      "drugName": "Calcium citrate"
+    },
+    {
+      "drugName": "Calcium glubionate"
+    },
+    {
+      "drugName": "Calcium gluconate"
+    },
+    {
+      "drugName": "Calcium polystyrene"
+    },
+    {
+      "drugName": "Calcium supplement"
+    },
+    {
+      "drugName": "Candesartan"
+    },
+    {
+      "drugName": "Captopril"
+    },
+    {
+      "drugName": "Captopril+Hydrochlorothiazide"
+    },
+    {
+      "drugName": "Carbamazepine"
+    },
+    {
+      "drugName": "Carbazochrome+Troxerutin"
+    },
+    {
+      "drugName": "Carbidopa+Levodopa"
+    },
+    {
+      "drugName": "Carbimazole"
+    },
+    {
+      "drugName": "Carbocysteine"
+    },
+    {
+      "drugName": "Carvedilol"
+    },
+    {
+      "drugName": "Cefadroxil"
+    },
+    {
+      "drugName": "Cefalexin"
+    },
+    {
+      "drugName": "Cefazolin"
+    },
+    {
+      "drugName": "Cefepime"
+    },
+    {
+      "drugName": "Cefixime"
+    },
+    {
+      "drugName": "Cefoperazone"
+    },
+    {
+      "drugName": "Cefoperazone+Sulbactam"
+    },
+    {
+      "drugName": "Cefotaxime"
+    },
+    {
+      "drugName": "Cefoxitin"
+    },
+    {
+      "drugName": "Ceftazidime"
+    },
+    {
+      "drugName": "Ceftraixone"
+    },
+    {
+      "drugName": "Cerebrolysin"
+    },
+    {
+      "drugName": "Cetirizine"
+    },
+    {
+      "drugName": "Chloramphenicol"
+    },
+    {
+      "drugName": "Chlorhexidine"
+    },
+    {
+      "drugName": "Chlorozoxazone+Ibuprofen"
+    },
+    {
+      "drugName": "Chlorpheniramine"
+    },
+    {
+      "drugName": "Cholecalciferol"
+    },
+    {
+      "drugName": "Cholestyramine"
+    },
+    {
+      "drugName": "Chymotrypsin"
+    },
+    {
+      "drugName": "Chymotrypsin+Trypsin"
+    },
+    {
+      "drugName": "Cilostazol"
+    },
+    {
+      "drugName": "Cinacalcet"
+    },
+    {
+      "drugName": "Cinnarizine"
+    },
+    {
+      "drugName": "Ciprofloxacin"
+    },
+    {
+      "drugName": "Citicoline"
+    },
+    {
+      "drugName": "Clarithromycin"
+    },
+    {
+      "drugName": "Clarithromycin+Omeprazole+Tinidazole"
+    },
+    {
+      "drugName": "Clindamycin"
+    },
+    {
+      "drugName": "Clozapine"
+    },
+    {
+      "drugName": "Clonazepam"
+    },
+    {
+      "drugName": "Clopidogrel"
+    },
+    {
+      "drugName": "Clotrimazole"
+    },
+    {
+      "drugName": "Colchicine"
+    },
+    {
+      "drugName": "Colchicine+Atropin Sulfate"
+    },
+    {
+      "drugName": "Colistin"
+    },
+    {
+      "drugName": "Corticoadrenal Extract+Vitamin B6"
+    },
+    {
+      "drugName": "Crataegus"
+    },
+    {
+      "drugName": "Cyclizine"
+    },
+    {
+      "drugName": "Cyclopentolate"
+    },
+    {
+      "drugName": "Cyclosporin"
+    },
+    {
+      "drugName": "Cyrine"
+    },
+    {
+      "drugName": "Cystone"
+    },
+    {
+      "drugName": "Daclatasavir"
+    },
+    {
+      "drugName": "Dantrolene"
+    },
+    {
+      "drugName": "Dapagliflozin"
+    },
+    {
+      "drugName": "Desloratadine"
+    },
+    {
+      "drugName": "Desmopressin"
+    },
+    {
+      "drugName": "Dexamethasone"
+    },
+    {
+      "drugName": "Dexamethasone+Chlorpheniramine"
+    },
+    {
+      "drugName": "Dexpanthenol"
+    },
+    {
+      "drugName": "Dextromethorphan"
+    },
+    {
+      "drugName": "Diazepam"
+    },
+    {
+      "drugName": "Diclofenac"
+    },
+    {
+      "drugName": "Diethylamine salicylate"
+    },
+    {
+      "drugName": "Digoxin"
+    },
+    {
+      "drugName": "Dihydrocodeine+Chlorpheniramine+Ephedrine"
+    },
+    {
+      "drugName": "Diltaizem"
+    },
+    {
+      "drugName": "Dimethicone"
+    },
+    {
+      "drugName": "Dioctahedral Smectite"
+    },
+    {
+      "drugName": "Diosmin"
+    },
+    {
+      "drugName": "Diosmin+Hesperidin"
+    },
+    {
+      "drugName": "Diphenhydramine"
+    },
+    {
+      "drugName": "Dobutamine"
+    },
+    {
+      "drugName": "Domperidone"
+    },
+    {
+      "drugName": "Donepezil"
+    },
+    {
+      "drugName": "Dopamine"
+    },
+    {
+      "drugName": "Dorzolamide+Timolol"
+    },
+    {
+      "drugName": "Doxazosin"
+    },
+    {
+      "drugName": "Doxycycline"
+    },
+    {
+      "drugName": "Duloxetine"
+    },
+    {
+      "drugName": "Efavirenz"
+    },
+    {
+      "drugName": "Enalapril "
+    },
+    {
+      "drugName": "Enalapril+Hydrochlorothiazide"
+    },
+    {
+      "drugName": "Enema"
+    },
+    {
+      "drugName": "Enoxaparin"
+    },
+    {
+      "drugName": "Ensure"
+    },
+    {
+      "drugName": "Entecavir"
+    },
+    {
+      "drugName": "Epinephrine"
+    },
+    {
+      "drugName": "Eplerenone"
+    },
+    {
+      "drugName": "Eptifibatide"
+    },
+    {
+      "drugName": "Ertapenem"
+    },
+    {
+      "drugName": "Erythromycin"
+    },
+    {
+      "drugName": "Erythropoietin Alpha"
+    },
+    {
+      "drugName": "Escitalopram"
+    },
+    {
+      "drugName": "Esomeprazole"
+    },
+    {
+      "drugName": "Etamsylate"
+    },
+    {
+      "drugName": "Ethambutol"
+    },
+    {
+      "drugName": "Etilefrine"
+    },
+    {
+      "drugName": "Famcylcovir"
+    },
+    {
+      "drugName": "Famotidine"
+    },
+    {
+      "drugName": "Febuxostat"
+    },
+    {
+      "drugName": "Felodepine"
+    },
+    {
+      "drugName": "Fenofibrate"
+    },
+    {
+      "drugName": "Fentanyl"
+    },
+    {
+      "drugName": "Ferric gluconate"
+    },
+    {
+      "drugName": "Ferric hydroxide polymaltose complex"
+    },
+    {
+      "drugName": "Ferric Hydroxide Saccharate"
+    },
+    {
+      "drugName": "Ferrous fumarate"
+    },
+    {
+      "drugName": "Ferrous gluconate"
+    },
+    {
+      "drugName": "Ferrous sulfate"
+    },
+    {
+      "drugName": "Ferrous sulphate"
+    },
+    {
+      "drugName": "Fexofenadine"
+    },
+    {
+      "drugName": "Flubendazole"
+    },
+    {
+      "drugName": "Fluconazole"
+    },
+    {
+      "drugName": "Fluids"
+    },
+    {
+      "drugName": "Fluoxetine"
+    },
+    {
+      "drugName": "Fluticasone"
+    },
+    {
+      "drugName": "Fluticasone+Salmeterol"
+    },
+    {
+      "drugName": "Folic acid"
+    },
+    {
+      "drugName": "Fondaparinux"
+    },
+    {
+      "drugName": "Formoterol fumarate"
+    },
+    {
+      "drugName": "Fucidic acid"
+    },
+    {
+      "drugName": "Furosemide"
+    },
+    {
+      "drugName": "Furosemide+Spironolactone"
+    },
+    {
+      "drugName": "Gabapentin"
+    },
+    {
+      "drugName": "Gemfibrozil"
+    },
+    {
+      "drugName": "Gemifloxacin"
+    },
+    {
+      "drugName": "Gentamicin"
+    },
+    {
+      "drugName": "Ginkgo Biloba"
+    },
+    {
+      "drugName": "Ginseng"
+    },
+    {
+      "drugName": "Glibenclamide"
+    },
+    {
+      "drugName": "Glibenclamide+Metformin"
+    },
+    {
+      "drugName": "Gliclazide"
+    },
+    {
+      "drugName": "Glimepiride"
+    },
+    {
+      "drugName": "Glimepiride+Pioglitazone"
+    },
+    {
+      "drugName": "Glucose 10%"
+    },
+    {
+      "drugName": "Glucose 25%"
+    },
+    {
+      "drugName": "Glucose 5%"
+    },
+    {
+      "drugName": "Glycerol"
+    },
+    {
+      "drugName": "Glycophos"
+    },
+    {
+      "drugName": "Gramicidin+Neomycin+Nystatin+Triamcinolone"
+    },
+    {
+      "drugName": "Granisetron"
+    },
+    {
+      "drugName": "Guaifenesin"
+    },
+    {
+      "drugName": "Guaifenesin+Acetaminophen"
+    },
+    {
+      "drugName": "Guaifenesin+Diphenhydramine"
+    },
+    {
+      "drugName": "Half Normal Saline"
+    },
+    {
+      "drugName": "Haloperidol"
+    },
+    {
+      "drugName": "Hepafort"
+    },
+    {
+      "drugName": "Heparin"
+    },
+    {
+      "drugName": "Heptaminol Hcl"
+    },
+    {
+      "drugName": "Hesteril"
+    },
+    {
+      "drugName": "Horse chestnut"
+    },
+    {
+      "drugName": "Hydrochlorothiazide"
+    },
+    {
+      "drugName": "Hydrocortisone"
+    },
+    {
+      "drugName": "Hydroxychloroquine"
+    },
+    {
+      "drugName": "Hydroxyethyl starch"
+    },
+    {
+      "drugName": "Hydroxyurea"
+    },
+    {
+      "drugName": "Hyoscine-N-Butyl Bromide"
+    },
+    {
+      "drugName": "Hypertonic saline"
+    },
+    {
+      "drugName": "Ibuprofen"
+    },
+    {
+      "drugName": "Imipinem+Cilastatin"
+    },
+    {
+      "drugName": "Immunoglobulin IV"
+    },
+    {
+      "drugName": "Indapamide"
+    },
+    {
+      "drugName": "Indomethacin"
+    },
+    {
+      "drugName": "Insulin Aspart"
+    },
+    {
+      "drugName": "Insulin Aspart Protamine:Aspart 50:50"
+    },
+    {
+      "drugName": "Insulin Aspart Protamine:Aspart 70:30"
+    },
+    {
+      "drugName": "Insulin Detemir"
+    },
+    {
+      "drugName": "Insulin Glargine"
+    },
+    {
+      "drugName": "Insulin Glulisine"
+    },
+    {
+      "drugName": "Insulin Lispro"
+    },
+    {
+      "drugName": "Insulin Lispro Protamine:Lispro 50:50"
+    },
+    {
+      "drugName": "Insulin Lispro Protamine:Lispro 75:25"
+    },
+    {
+      "drugName": "Insulin NPH"
+    },
+    {
+      "drugName": "Insulin NPH:Regular 50:50"
+    },
+    {
+      "drugName": "Insulin NPH:Regular 70:30"
+    },
+    {
+      "drugName": "Insulin Regular"
+    },
+    {
+      "drugName": "Ipratropium"
+    },
+    {
+      "drugName": "Ipratropium+Salbutamol"
+    },
+    {
+      "drugName": "Irbesartan"
+    },
+    {
+      "drugName": "Iron"
+    },
+    {
+      "drugName": "Iron dextran"
+    },
+    {
+      "drugName": "Iron sucrose"
+    },
+    {
+      "drugName": "Iron sulfate"
+    },
+    {
+      "drugName": "Iron supplement"
+    },
+    {
+      "drugName": "Isoniazid"
+    },
+    {
+      "drugName": "Isosorbide Dinitrate"
+    },
+    {
+      "drugName": "Isosorbide Mononitrate"
+    },
+    {
+      "drugName": "Itopride"
+    },
+    {
+      "drugName": "Itraconazole"
+    },
+    {
+      "drugName": "Ivabradine"
+    },
+    {
+      "drugName": "Ketoconazole"
+    },
+    {
+      "drugName": "Ketoprofen"
+    },
+    {
+      "drugName": "Ketorolac"
+    },
+    {
+      "drugName": "Ketosteril"
+    },
+    {
+      "drugName": "kidmin"
+    },
+    {
+      "drugName": "Labetalol"
+    },
+    {
+      "drugName": "Lacosamide"
+    },
+    {
+      "drugName": "Lactobacillus"
+    },
+    {
+      "drugName": "Lactoferrin"
+    },
+    {
+      "drugName": "Lactulose"
+    },
+    {
+      "drugName": "Lamotrigine"
+    },
+    {
+      "drugName": "L-carnitine"
+    },
+    {
+      "drugName": "Leflunomide"
+    },
+    {
+      "drugName": "Levetiracetam"
+    },
+    {
+      "drugName": "Levocetirizine dihydrochloride"
+    },
+    {
+      "drugName": "Levodopa+benserazide"
+    },
+    {
+      "drugName": "Levofloxacin"
+    },
+    {
+      "drugName": "Levothyroxine"
+    },
+    {
+      "drugName": "Lidocaine"
+    },
+    {
+      "drugName": "Linagliptin"
+    },
+    {
+      "drugName": "Linezolid"
+    },
+    {
+      "drugName": "Lisinopril"
+    },
+    {
+      "drugName": "Lisinopril+Hydrochlorothiazide"
+    },
+    {
+      "drugName": "Loperamide"
+    },
+    {
+      "drugName": "L-ornithine+L-aspartate"
+    },
+    {
+      "drugName": "Losartan"
+    },
+    {
+      "drugName": "Magnesium Citrate"
+    },
+    {
+      "drugName": "Magnesium Sulphate"
+    },
+    {
+      "drugName": "Malathion"
+    },
+    {
+      "drugName": "Mannitol"
+    },
+    {
+      "drugName": "mebeverine"
+    },
+    {
+      "drugName": "Mebendazole"
+    },
+    {
+      "drugName": "Meclofenoxate"
+    },
+    {
+      "drugName": "Meloxicam"
+    },
+    {
+      "drugName": "Memantine"
+    },
+    {
+      "drugName": "Meperidine"
+    },
+    {
+      "drugName": "Meropenem"
+    },
+    {
+      "drugName": "Metformin"
+    },
+    {
+      "drugName": "Methotrexate"
+    },
+    {
+      "drugName": "Methyldopa"
+    },
+    {
+      "drugName": "Methylergometrine"
+    },
+    {
+      "drugName": "Methylprednisolone"
+    },
+    {
+      "drugName": "Metoclopramide"
+    },
+    {
+      "drugName": "Metolazone"
+    },
+    {
+      "drugName": "Metoprolol"
+    },
+    {
+      "drugName": "Metronidazole"
+    },
+    {
+      "drugName": "Miconazole"
+    },
+    {
+      "drugName": "Midazolam"
+    },
+    {
+      "drugName": "Midodrine"
+    },
+    {
+      "drugName": "Milrinone"
+    },
+    {
+      "drugName": "Mirtazapine"
+    },
+    {
+      "drugName": "Misoprostol"
+    },
+    {
+      "drugName": "Mometasone"
+    },
+    {
+      "drugName": "Montelukast"
+    },
+    {
+      "drugName": "Morphine"
+    },
+    {
+      "drugName": "Mosapride"
+    },
+    {
+      "drugName": "Moxifloxacin"
+    },
+    {
+      "drugName": "Multivitamins"
+    },
+    {
+      "drugName": "Mupirocin"
+    },
+    {
+      "drugName": "Mycofenolate mofetil"
+    },
+    {
+      "drugName": "Mycophenolate"
+    },
+    {
+      "drugName": "N-Acetylcysteine"
+    },
+    {
+      "drugName": "Nadroparin"
+    },
+    {
+      "drugName": "Naftidrofuryl oxalate"
+    },
+    {
+      "drugName": "Nalbuphine"
+    },
+    {
+      "drugName": "Naphazoline \n"
+    },
+    {
+      "drugName": "Naphazoline+Chlorpheniramine"
+    },
+    {
+      "drugName": "Nebivolol"
+    },
+    {
+      "drugName": "Neomaint"
+    },
+    {
+      "drugName": "Neomycin"
+    },
+    {
+      "drugName": "Nepafenac"
+    },
+    {
+      "drugName": "Nicorandil"
+    },
+    {
+      "drugName": "Nifedipine"
+    },
+    {
+      "drugName": "Nifuroxazide"
+    },
+    {
+      "drugName": "Nimodipine"
+    },
+    {
+      "drugName": "Nitazoxanide"
+    },
+    {
+      "drugName": "Nitidine"
+    },
+    {
+      "drugName": "Nitrofurantoin"
+    },
+    {
+      "drugName": "Nitroglycerin"
+    },
+    {
+      "drugName": "Notussil"
+    },
+    {
+      "drugName": "None (No Drug)"
+    },
+    {
+      "drugName": "None (No Drug)>CKD with no labs"
+    },
+    {
+      "drugName": "None (No Drug)>Fup CBC"
+    },
+    {
+      "drugName": "None (No Drug)>Fup Scr"
+    },
+    {
+      "drugName": "None (No Drug)>Fup albumin"
+    },
+    {
+      "drugName": "None (No Drug)>Fup electrolytes"
+    },
+    {
+      "drugName": "None (No Drug)>Fup iron profile"
+    },
+    {
+      "drugName": "None (No Drug)>Fup infection parameters"
+    },
+    {
+      "drugName": "None (No Drug)>Fup uric acid"
+    },
+    {
+      "drugName": "Norepinephrine"
+    },
+    {
+      "drugName": "Normal saline "
+    },
+    {
+      "drugName": "Nutrition formula"
+    },
+    {
+      "drugName": "Nystatin"
+    },
+    {
+      "drugName": "Obidoxime "
+    },
+    {
+      "drugName": "Octreotide"
+    },
+    {
+      "drugName": "Ofloxacin"
+    },
+    {
+      "drugName": "Olmesartan"
+    },
+    {
+      "drugName": "Olmesartan+Amlodipine+Hydrochlorothiazide"
+    },
+    {
+      "drugName": "Olmesartan+Hydrochlorothiazide"
+    },
+    {
+      "drugName": "Omeprazole"
+    },
+    {
+      "drugName": "Ondansetron"
+    },
+    {
+      "drugName": "Oplex"
+    },
+    {
+      "drugName": "Orphenadrine"
+    },
+    {
+      "drugName": "Oseltamavir"
+    },
+    {
+      "drugName": "Osipect"
+    },
+    {
+      "drugName": "Oxcarbazepine"
+    },
+    {
+      "drugName": "Oxomemazine"
+    },
+    {
+      "drugName": "Oxomemazine+Guaiphenesin"
+    },
+    {
+      "drugName": "Oxybutynin"
+    },
+    {
+      "drugName": "Oxymetazoline"
+    },
+    {
+      "drugName": "Oxytetracyclin+Polymixin"
+    },
+    {
+      "drugName": "Oxytocin"
+    },
+    {
+      "drugName": "Pancuronium"
+    },
+    {
+      "drugName": "Pantoprazole"
+    },
+    {
+      "drugName": "Paracetamol"
+    },
+    {
+      "drugName": "Paroxetine"
+    },
+    {
+      "drugName": "Pediamaint"
+    },
+    {
+      "drugName": "Pentoxifylline"
+    },
+    {
+      "drugName": "Pethidine"
+    },
+    {
+      "drugName": "Pheniramine maleate"
+    },
+    {
+      "drugName": "Phenobarbital"
+    },
+    {
+      "drugName": "Phenytoin"
+    },
+    {
+      "drugName": "Phosphrus IV"
+    },
+    {
+      "drugName": "Phytomenadione"
+    },
+    {
+      "drugName": "Pioglitazone"
+    },
+    {
+      "drugName": "Piperacillin+Tazobactam"
+    },
+    {
+      "drugName": "Piracetam"
+    },
+    {
+      "drugName": "Piroxicam"
+    },
+    {
+      "drugName": "Potassium bicarbonate+Sodium Alginate"
+    },
+    {
+      "drugName": "Potassium chloride"
+    },
+    {
+      "drugName": "Povidone-Iodine"
+    },
+    {
+      "drugName": "Prazosin"
+    },
+    {
+      "drugName": "Prednisolone"
+    },
+    {
+      "drugName": "Prednisone"
+    },
+    {
+      "drugName": "Pregabalin"
+    },
+    {
+      "drugName": "Primagrowth formula"
+    },
+    {
+      "drugName": "Primaquine"
+    },
+    {
+      "drugName": "Prochlorpromazine"
+    },
+    {
+      "drugName": "Progesterone"
+    },
+    {
+      "drugName": "Propafenone"
+    },
+    {
+      "drugName": "Propofol"
+    },
+    {
+      "drugName": "Propranolol"
+    },
+    {
+      "drugName": "Proximadiol"
+    },
+    {
+      "drugName": "Prucalopride"
+    },
+    {
+      "drugName": "Pyrazinamide"
+    },
+    {
+      "drugName": "psyllium"
+    },
+    {
+      "drugName": "Pyridostigmine"
+    },
+    {
+      "drugName": "Quetiapine"
+    },
+    {
+      "drugName": "Quinine sulfate"
+    },
+    {
+      "drugName": "Rabeprazole"
+    },
+    {
+      "drugName": "Ramipril"
+    },
+    {
+      "drugName": "Ramipril+Felodipine"
+    },
+    {
+      "drugName": "Ranibizumab"
+    },
+    {
+      "drugName": "Ranitidine"
+    },
+    {
+      "drugName": "Rasagiline"
+    },
+    {
+      "drugName": "Rebamipide"
+    },
+    {
+      "drugName": "Recombinant Hirudin"
+    },
+    {
+      "drugName": "Rehydran (IV Solution)"
+    },
+    {
+      "drugName": "Rehydran (Oral Solution) "
+    },
+    {
+      "drugName": "Repaglinide"
+    },
+    {
+      "drugName": "Ribavirin"
+    },
+    {
+      "drugName": "Rifampicin"
+    },
+    {
+      "drugName": "Rifaximin"
+    },
+    {
+      "drugName": "Rimexolone"
+    },
+    {
+      "drugName": "Ringer"
+    },
+    {
+      "drugName": "Ringer acetate"
+    },
+    {
+      "drugName": "Ringer lactate"
+    },
+    {
+      "drugName": "Risperidone"
+    },
+    {
+      "drugName": "Rivaroxaban"
+    },
+    {
+      "drugName": "Rosuvastatin"
+    },
+    {
+      "drugName": "Rowachol"
+    },
+    {
+      "drugName": "Rowatinex"
+    },
+    {
+      "drugName": "Rutin"
+    },
+    {
+      "drugName": "Salbutamol"
+    },
+    {
+      "drugName": "Salbutamol+Betamethasone"
+    },
+    {
+      "drugName": "Salmeterol"
+    },
+    {
+      "drugName": "Sevelamer"
+    },
+    {
+      "drugName": "Sildenafil"
+    },
+    {
+      "drugName": "Silymarin"
+    },
+    {
+      "drugName": "Simethicone"
+    },
+    {
+      "drugName": "Simethicone+Silicon dioxide"
+    },
+    {
+      "drugName": "Simvastatin"
+    },
+    {
+      "drugName": "Simvastatin+Ezetimibe"
+    },
+    {
+      "drugName": "Sodium bicarbonate"
+    },
+    {
+      "drugName": "Sodium picosulfate"
+    },
+    {
+      "drugName": "Sodium polystyrene"
+    },
+    {
+      "drugName": "sodium alginate"
+    },
+    {
+      "drugName": "Sofosbuvir"
+    },
+    {
+      "drugName": "Soluvit N"
+    },
+    {
+      "drugName": "Sotalol"
+    },
+    {
+      "drugName": "Spasmodigestin"
+    },
+    {
+      "drugName": "Spiramycin"
+    },
+    {
+      "drugName": "Spironolactone"
+    },
+    {
+      "drugName": "Streptokinase"
+    },
+    {
+      "drugName": "Streptomycin"
+    },
+    {
+      "drugName": "sucralfate"
+    },
+    {
+      "drugName": "Sulfamethoxazole+Trimethoprim"
+    },
+    {
+      "drugName": "Sulphadiazine"
+    },
+    {
+      "drugName": "Sulpiride"
+    },
+    {
+      "drugName": "ursodeoxycolic acid"
+    },
+    {
+      "drugName": "Tacrolimus"
+    },
+    {
+      "drugName": "Tamoxifen"
+    },
+    {
+      "drugName": "Tamsulosin"
+    },
+    {
+      "drugName": "Teicoplanin"
+    },
+    {
+      "drugName": "Tenofovir disoproxil fumarate"
+    },
+    {
+      "drugName": "Tenoxicam"
+    },
+    {
+      "drugName": "Terbinafine"
+    },
+    {
+      "drugName": "Terbutaline"
+    },
+    {
+      "drugName": "Tetanus Toxoid"
+    },
+    {
+      "drugName": "Tetracycline"
+    },
+    {
+      "drugName": "Tetrastarch"
+    },
+    {
+      "drugName": "Theophenicol"
+    },
+    {
+      "drugName": "Theophylline"
+    },
+    {
+      "drugName": "Thiamine"
+    },
+    {
+      "drugName": "Thilo-Tears"
+    },
+    {
+      "drugName": "Ticagrelor"
+    },
+    {
+      "drugName": "Tiemonium methyl sulphate"
+    },
+    {
+      "drugName": "Tigecycline"
+    },
+    {
+      "drugName": "Timolol"
+    },
+    {
+      "drugName": "Tirofiban"
+    },
+    {
+      "drugName": "Tizanidine"
+    },
+    {
+      "drugName": "Tobramycin"
+    },
+    {
+      "drugName": "Topiramate"
+    },
+    {
+      "drugName": "Torsemide"
+    },
+    {
+      "drugName": "Tranexamic acid"
+    },
+    {
+      "drugName": "Tribulus Terrestris"
+    },
+    {
+      "drugName": "Trifluperazine"
+    },
+    {
+      "drugName": "Trimebutine maleate"
+    },
+    {
+      "drugName": "Trimetazidine"
+    },
+    {
+      "drugName": "Tropicamide"
+    },
+    {
+      "drugName": "Ursodeoxycholic acid"
+    },
+    {
+      "drugName": "Valacyclovir"
+    },
+    {
+      "drugName": "Valproic acid"
+    },
+    {
+      "drugName": "Valsartan"
+    },
+    {
+      "drugName": "Vancomycin"
+    },
+    {
+      "drugName": "Verapamil"
+    },
+    {
+      "drugName": "Vitalipid N Adult"
+    },
+    {
+      "drugName": "Vitamin A"
+    },
+    {
+      "drugName": "Vitamin B Complex"
+    },
+    {
+      "drugName": "Vitamin B12"
+    },
+    {
+      "drugName": "Vitamin E"
+    },
+    {
+      "drugName": "Vitamin K"
+    },
+    {
+      "drugName": "Voriconazole"
+    },
+    {
+      "drugName": "Warfarin"
+    },
+    {
+      "drugName": "Zinc Sulphate"
+    }
+  ]

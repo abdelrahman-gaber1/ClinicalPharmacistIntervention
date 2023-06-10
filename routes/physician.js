@@ -17,6 +17,10 @@ const {
   changePassword,
 } = require("../controller/physicicancontroller");
 
+const ReportRoutes = require("./report");
+
+router.use("/:physicianId/physicianReport", ReportRoutes);
+
 router.put(
   "/changepassword/:id",
   changePhysicianPasswordValidator,

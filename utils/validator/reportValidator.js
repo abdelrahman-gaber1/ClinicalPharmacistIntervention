@@ -1,6 +1,7 @@
 const { check } = require("express-validator");
 const validatorMiddleware = require("../../Middleware/validatorMiddleware");
 const pharmacistSchema = require("../../models/pharmacistSchema");
+const physicianSchema = require("../../models/physicicanSchema");
 
 const createReportvalidator = [
   check("pharmacistId")
@@ -27,6 +28,20 @@ const createReportvalidator = [
         if (!Pharmacist) {
           return Promise.reject(
             new Error(`No Pharmacist for this Id ${PharmacistID}`)
+          );
+        }
+      })
+    ),
+  check("Physician")
+    .notEmpty()
+    .withMessage("Report must be belong to a Physician")
+    .isMongoId()
+    .withMessage("Invalid ID formate")
+    .custom((PhysicianID) =>
+      physicianSchema.findById(PhysicianID).then((Physician) => {
+        if (!Physician) {
+          return Promise.reject(
+            new Error(`No Physician for this Id ${PhysicianID}`)
           );
         }
       })

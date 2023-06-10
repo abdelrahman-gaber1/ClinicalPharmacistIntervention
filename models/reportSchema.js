@@ -6,7 +6,7 @@ const reportSchema = new mongoose.Schema(
     pharmacistId: {
       type: Number,
       trim: true,
-      required: [true, "pharmacistId must be Unique"],
+      required: [true, "pharmacistId is required"],
     },
     pharmacistName: {
       type: String,
@@ -16,13 +16,13 @@ const reportSchema = new mongoose.Schema(
     consultantName: {
       type: String,
       trim: true,
-      required: [true, "pharmacistName is Required"],
+      required: [true, "consultantName is Required"],
     },
     departmentName: String,
     residentName: {
       type: String,
       trim: true,
-      required: [true, "pharmacistName is Required"],
+      required: [true, "residentName is Required"],
     },
     residentAge: Number,
     residentGender: {
@@ -73,7 +73,11 @@ const reportSchema = new mongoose.Schema(
 reportSchema.pre(/^find/, function (next) {
   this.populate({
     path: "Pharmacist",
-    select: "name-_id",
+    select: "userName-_id",
+  });
+  this.populate({
+    path: "Physician",
+    select: "userName-_id",
   });
   next();
 });

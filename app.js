@@ -2,6 +2,7 @@ const express = require("express");
 const dotenv = require("dotenv");
 const morgan = require("morgan");
 const helmet = require("helmet");
+const cors = require("cors");
 const ApiError = require("./utils/ApiError");
 
 const globalerror = require("./Middleware/errorMiddleware");
@@ -21,12 +22,15 @@ app.set("views", "views");
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 
-const managerRoutes = require("./routes/manager");
-const reportRoutes = require("./routes/report");
-const physicianRoutes = require("./routes/physician");
-const pharmacistRoutes = require("./routes/pharmacist");
-const drugRoutes = require("./routes/drug");
-const authRoutes = require("./routes/authRoutes");
+// Routes
+const mountRoutes = require("./routes/index");
+
+// Mount Routes
+mountRoutes(app);
+
+// Enable other domains to access your application
+app.use(cors());
+app.options("*", cors());
 
 if (process.env.MODE_ENV === "development") {
   app.use(morgan("dev"));
@@ -34,19 +38,11 @@ if (process.env.MODE_ENV === "development") {
 }
 
 const PORT = process.env.PORT || 5000;
-
 const server = app.listen(PORT, () => {
   console.log(`App running on port ${PORT}`);
 });
 
 app.use(helmet());
-
-app.use("/api/v1/manager", managerRoutes);
-app.use("/api/v1/report", reportRoutes);
-app.use("/api/v1/physician", physicianRoutes);
-app.use("/api/v1/pharmacist", pharmacistRoutes);
-app.use("/api/v1/alldrugs", drugRoutes);
-app.use("/api/v1/auth", authRoutes);
 
 app.all("*", (req, res, next) => {
   next(new ApiError(`Can't find this route: ${req.originalUrl}`, 400));
@@ -55,6 +51,7 @@ app.all("*", (req, res, next) => {
 // Global error handling middleware
 app.use(globalerror);
 
+// Handle rejection outside express
 process.on("unhandledRejection", (err) => {
   console.error(`unhandledRejection Error: ${err.name} | ${err.message}`);
   server.close(() => {

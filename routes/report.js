@@ -1,5 +1,6 @@
 const express = require("express");
 
+// allow us to access prams of another routes
 const router = express.Router({ mergeParams: true });
 
 const {
@@ -13,12 +14,18 @@ const {
   createReport,
   createFiterObject,
   setPharmacitIdtobody,
+  setPhycicianIdtobody,
 } = require("../controller/reportcontroller");
 
 router
   .route("/")
   .get(createFiterObject, allReports)
-  .post(setPharmacitIdtobody, createReportvalidator, createReport);
+  .post(
+    setPharmacitIdtobody,
+    setPhycicianIdtobody,
+    createReportvalidator,
+    createReport
+  );
 
 router.route("/:id").get(getReportValidator, getReport);
 

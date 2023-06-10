@@ -93,7 +93,7 @@ const physicianLogin = asyncHandler(async (req, res, next) => {
   const physician = await pharmacistModel.findOne({ email: req.body.email });
   if (
     !physician ||
-    !(await bcrypt.compare(req.body.password, manager.password))
+    !(await bcrypt.compare(req.body.password, physician.password))
   ) {
     return next(new ApiError("Incorrect email or password", 401));
   }

@@ -9,11 +9,19 @@ const setPharmacitIdtobody = (req, res, next) => {
 };
 
 // Nested Route
+const setPhycicianIdtobody = (req, res, next) => {
+  if (!req.body.Physician) req.body.Physician = req.params.physicianId;
+  next();
+};
+
+// Nested Route
 // @route   GET /api/v1/pharmacist/:pharmacistId/pharmacistreport
 const createFiterObject = (req, res, next) => {
   let filterObject = {};
   if (req.params.pharmacistId) {
-    filterObject = { category: req.params.categoryId };
+    filterObject = { Pharmacist: req.params.pharmacistId };
+  } else if (req.params.physicianId) {
+    filterObject = { Physician: req.params.physicianId };
   }
   req.filterObject = filterObject;
   next();
@@ -31,4 +39,5 @@ module.exports = {
   createReport,
   createFiterObject,
   setPharmacitIdtobody,
+  setPhycicianIdtobody,
 };

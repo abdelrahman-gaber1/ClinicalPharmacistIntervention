@@ -114,7 +114,7 @@ const changePharmacistPasswordValidator = [
       if (!isCorrect) {
         throw new Error("Incorrect Current Password");
       }
-      if (val !== req.body.confirmPassword) {
+      if (val !== req.body.passwordConfirm) {
         throw new Error("Password Conformation not Correct");
       }
       return true;
