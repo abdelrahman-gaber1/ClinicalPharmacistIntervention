@@ -1,0 +1,62 @@
+[
+  {
+    "PossibleCauses": "Mishandled Verbal Order"
+  },
+  {
+    "PossibleCauses": "Sound alike medication"
+  },
+  {
+    "PossibleCauses": "Look alike medication"
+  },
+  {
+    "PossibleCauses": "Confusing product labeling"
+  },
+  {
+    "PossibleCauses": "Confusing drug insert"
+  },
+  {
+    "PossibleCauses": "Incomplete patient information"
+  },
+  {
+    "PossibleCauses": "Misleading advertisement"
+  },
+  {
+    "PossibleCauses": "Unclear/Lacking documentation in medical records"
+  },
+  {
+    "PossibleCauses": "Illegible handwriting"
+  },
+  {
+    "PossibleCauses": "Wrong Abbreviations"
+  },
+  {
+    "PossibleCauses": "Wrong decimal point"
+  },
+  {
+    "PossibleCauses": "Use of uncommon units"
+  },
+  {
+    "PossibleCauses": "Calculation error"
+  },
+  {
+    "PossibleCauses": "Lack of knowledge/ Experience"
+  },
+  {
+    "PossibleCauses": "Inappropriate storage conditions"
+  },
+  {
+    "PossibleCauses": "Inappropriate dispensing area"
+  },
+  {
+    "PossibleCauses": "Environmental factors (Workload-Noise - Poor communication)"
+  },
+  {
+    "PossibleCauses": "Lack of patient education or compliance"
+  },
+  {
+    "PossibleCauses": "Lack of drug information sources"
+  },
+  {
+    "PossibleCauses": "Others:"
+  }
+]

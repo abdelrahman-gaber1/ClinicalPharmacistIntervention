@@ -1,7 +1,8 @@
 const fs = require("fs");
 require("colors");
 const dotenv = require("dotenv");
-const Alldrug = require("../../models/drugSchema");
+// const Alldrug = require("../../models/drugSchema");
+const AllpossibleCauses = require("../../models/possibleCauses");
 const dbConnection = require("../../config/database");
 
 dotenv.config({ path: "../../config.env" });
@@ -10,12 +11,12 @@ dotenv.config({ path: "../../config.env" });
 dbConnection();
 
 // Read data
-const Drugs = JSON.parse(fs.readFileSync("./alldrug.json"));
+const Error = JSON.parse(fs.readFileSync("./possibleCauses.json"));
 
 // Insert data into DB
 const insertData = async () => {
   try {
-    await Alldrug.create(Drugs);
+    await AllpossibleCauses.create(Error);
 
     console.log("Data Inserted".green.inverse);
     process.exit();
@@ -27,7 +28,7 @@ const insertData = async () => {
 // Delete data from DB
 const destroyData = async () => {
   try {
-    await Alldrug.deleteMany();
+    await AllpossibleCauses.deleteMany();
     console.log("Data Destroyed".red.inverse);
     process.exit();
   } catch (error) {

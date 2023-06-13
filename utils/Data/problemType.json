@@ -1,0 +1,89 @@
+[
+  {
+    "ProblemType": "[Unnecessary Drug] (1.1) There is no valid indication."
+  },
+  {
+    "ProblemType": "[Unnecessary Drug] (1.2)  Therapeutic Duplication (Multiple-drugs used for a condition that requires single-drug)"
+  },
+  {
+    "ProblemType": "[Unnecessary Drug] (1.3) The condition is more appropriately treated with non-drug therapy."
+  },
+  {
+    "ProblemType": "[Needs Drug] (1.4) Indication (medical condition) without medication"
+  },
+  {
+    "ProblemType": "[Needs Drug] (1.5) Preventive drug is required to reduce risk of developing a new condition."
+  },
+  {
+    "ProblemType": "[Needs Drug] (1.6) Abrupt discontinuation of drug that should be gradually withdrawn"
+  },
+  {
+    "ProblemType": "[Needs Drug] (1.7) A medical condition requires additional drug therapy."
+  },
+  {
+    "ProblemType": "[Selection] (2.1) Allergy (drug is not the most appropriate due to known or potential allergy)"
+  },
+  {
+    "ProblemType": "[Selection] (2.2) Contraindication (selected drug is contraindicated due to comorbidity)"
+  },
+  {
+    "ProblemType": "[Selection] (2.3) The Route of administration / Dosage form is inappropriate."
+  },
+  {
+    "ProblemType": "[Selection] (2.4) The selected drug is not the most effective for this condition according to guidelines or patient's response"
+  },
+  {
+    "ProblemType": "[Selection] (2.5) Alert/Warning due to risk factors."
+  },
+  {
+    "ProblemType": "[Drug Interactions] (3.0) A drug interaction that may affect effectiveness or safety"
+  },
+  {
+    "ProblemType": "[Dosing Regimen] (4.1) Dose/ interval is not appropriate according to: Indication",
+    "__parsed_extra": [
+      " Age",
+      " Weight",
+      " Renal & Liver function",
+      " Patient's response to the drug (effect/ safety)"
+    ]
+  },
+  {
+    "ProblemType": "[Dosing Regimen] (4.2) Duration of drug therapy is not appropriate (too short/ long)."
+  },
+  {
+    "ProblemType": "[Instructions for Prep./Adm.] (5.1) The Administration rate may affect effectiveness or safety"
+  },
+  {
+    "ProblemType": "[Instructions for Prep./Adm.] (5.2) Instructions for dilution  may affect effectiveness or safety"
+  },
+  {
+    "ProblemType": "[Instructions for Prep./Adm.] (5.3) Incompatibility may affect effectiveness or safety"
+  },
+  {
+    "ProblemType": "[Instructions for Prep./Adm.] (5.4) The Administration time may affect effectiveness or safety"
+  },
+  {
+    "ProblemType": "[Monitoring] (6.1) Initial or additional monitoring is needed"
+  },
+  {
+    "ProblemType": "[Monitoring] (6.2) The drug causes an undesirable effect/ unpredicted Allergic reaction (although initial appropriate selection and dosing)"
+  },
+  {
+    "ProblemType": "[Adherence] (7.1) The patient does not understand the instructions."
+  },
+  {
+    "ProblemType": "[Adherence] (7.2) The patient forgets to take the medication."
+  },
+  {
+    "ProblemType": "[Adherence] (7.3) The patient prefers not to take the medication."
+  },
+  {
+    "ProblemType": "[Adherence] (7.4) The patient cannot afford the drug."
+  },
+  {
+    "ProblemType": "[Adherence] (7.5) The drug product is not available for the patient."
+  },
+  {
+    "ProblemType": "[Adherence] (7.6) The patient cannot swallow or self-administer the drug appropriately."
+  }
+]

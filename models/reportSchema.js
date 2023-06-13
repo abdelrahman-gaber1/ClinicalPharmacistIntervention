@@ -43,6 +43,7 @@ const reportSchema = new mongoose.Schema(
     medicalError: Boolean,
     referenceError: String,
     intervention: String,
+    possibleCauses: String,
     drugName: [
       {
         name: String,

@@ -1,0 +1,149 @@
+[
+  {
+    "typeOfError": "[Ordering Process o.p] (1) Wrong patient"
+  },
+  {
+    "typeOfError": "[Ordering Process o.p] (2) Incomplete or wrong patient information"
+  },
+  {
+    "typeOfError": "[Ordering Process o.p] (3) Wrong Drug Name"
+  },
+  {
+    "typeOfError": "[Ordering Process o.p] (4) Illegible Hand writing"
+  },
+  {
+    "typeOfError": "[Ordering Process o.p] (5) Wrong Strength"
+  },
+  {
+    "typeOfError": "[Ordering Process o.p] (6) Unapproved Abbreviations"
+  },
+  {
+    "typeOfError": "[Ordering Process o.p] (7) Wrong Decimal point"
+  },
+  {
+    "typeOfError": "[Ordering Process o.p] (8) Incomplete prescribing instructions"
+  },
+  {
+    "typeOfError": "[Ordering Process o.p] (9) Repetition"
+  },
+  {
+    "typeOfError": "[Preparation] (1) Wrong Drug Label"
+  },
+  {
+    "typeOfError": "[Preparation] (2) Wrong Dilution"
+  },
+  {
+    "typeOfError": "[Preparation] (3) Incompatibility Error"
+  },
+  {
+    "typeOfError": "[Preparation] (4) Procedure of Preparation"
+  },
+  {
+    "typeOfError": "[Preparation] (5) Others"
+  },
+  {
+    "typeOfError": "[Storage] (1) Wrong Storage conditions"
+  },
+  {
+    "typeOfError": "[Storage] (2) Others"
+  },
+  {
+    "typeOfError": "[Transcribing] (1) Wrong Drug"
+  },
+  {
+    "typeOfError": "[Transcribing] (2) Wrong Strength / Frequency"
+  },
+  {
+    "typeOfError": "[Transcribing] (3) Wrong Dosage Form"
+  },
+  {
+    "typeOfError": "[Transcribing] (4) Wrong Dilution Instructions"
+  },
+  {
+    "typeOfError": "[Transcribing] (5) Drug Omitted"
+  },
+  {
+    "typeOfError": "[Transcribing] (6) Duplication"
+  },
+  {
+    "typeOfError": "[Transcribing] (7) Missed information"
+  },
+  {
+    "typeOfError": "[Transcribing] (8) Others"
+  },
+  {
+    "typeOfError": "[Dispensing] (1) Wrong Patient"
+  },
+  {
+    "typeOfError": "[Dispensing] (2) Wrong label"
+  },
+  {
+    "typeOfError": "[Dispensing] (3) Wrong Drug"
+  },
+  {
+    "typeOfError": "[Dispensing] (4) Wrong Quantity/Strength"
+  },
+  {
+    "typeOfError": "[Dispensing] (5) Wrong Dosage form"
+  },
+  {
+    "typeOfError": "[Dispensing] (6) Expired/ Deteriorated Medication"
+  },
+  {
+    "typeOfError": "[Dispensing] (7) Omission"
+  },
+  {
+    "typeOfError": "[Dispensing] (8) Omission due to shortage"
+  },
+  {
+    "typeOfError": "[Dispensing] (9) Discontinued medication"
+  },
+  {
+    "typeOfError": "[Dispensing] (10) Others"
+  },
+  {
+    "typeOfError": "[Administration] (1) Wrong Patient"
+  },
+  {
+    "typeOfError": "[Administration] (2) Wrong Drug"
+  },
+  {
+    "typeOfError": "[Administration] (3) Wrong Dose regimen ( Dose/ Frequency)"
+  },
+  {
+    "typeOfError": "[Administration] (4) Wrong Administration Time"
+  },
+  {
+    "typeOfError": "[Administration] (5) Wrong Route of administration"
+  },
+  {
+    "typeOfError": "[Administration] (6) Wrong IV flow rate"
+  },
+  {
+    "typeOfError": "[Administration] (7) Wrong Administration Technique/ Wrong Special Instructions"
+  },
+  {
+    "typeOfError": "[Administration] (8) Administration of Discontinued Drug"
+  },
+  {
+    "typeOfError": "[Administration] (9) Drug Omission"
+  },
+  {
+    "typeOfError": "[Administration] (10) Nurse repeated administration of the same drug"
+  },
+  {
+    "typeOfError": "[Administration] (11) Nurse Signature error"
+  },
+  {
+    "typeOfError": "[Administration] (12) Nurse gave medication without physician order"
+  },
+  {
+    "typeOfError": "[Administration] (13) Others"
+  },
+  {
+    "typeOfError": "[Monitoring] (2) Monitoring ordered but not performed."
+  },
+  {
+    "typeOfError": "[Monitoring] (3) Others"
+  }
+]
